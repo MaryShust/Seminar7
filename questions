@@ -28,3 +28,5 @@ Compiller options -> flags
 
 В оптимизированном коде блок с функцией print_int испарился, потому что static (смотри в https://gitlab.se.ifmo.ru/otz/programming-languages-seminar-13/-/blob/master/README.md)
 
+5) Вспомните, почему инструкции call+ retможно заменить на пару jmp
+jmp - безусловный переход

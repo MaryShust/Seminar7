@@ -24,4 +24,7 @@ Compiller options -> flags
 В 1 случае(без оптимизации) кода куда больше чем во 2(с оптимизацией)
 
 
-4) 
+4) пометьте функцию print_int как static. Что произошло в оптимизированном коде и почему?
+
+В оптимизированном коде блок с функцией print_int испарился, потому что static (смотри в https://gitlab.se.ifmo.ru/otz/programming-languages-seminar-13/-/blob/master/README.md)
+

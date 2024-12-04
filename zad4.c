@@ -6,8 +6,8 @@
 #include <string.h>
 
 int check_password(FILE *f, const char *password) {
-  int okay = 0;
   char buffer[10];
+  int okay = 0;
   fscanf(f, "%9s", buffer);
   if (strcmp(buffer, password) == 0)
     okay = 1;

@@ -19,7 +19,7 @@ struct list *c(int64_t head, struct list *tail) {
   return h;
 }
 
-size_t list_length(struct list const *l) {
+size_t list_length_acc(struct list const *l) {
     size_t length = 0;
     while (l) {
         length++;
